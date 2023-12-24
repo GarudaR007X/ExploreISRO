@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/src/assets/images/expisro.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="/src/assets/css/style.css" />
+  <link rel="stylesheet" href="/src/assets/css/achievements.css">
+
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Martel&family=Piazzolla:opsz,wght@8..30,300;8..30,400;8..30,900&family=Roboto&family=Tiro+Devanagari+Sanskrit&display=swap");
+
+    @import url("https://fonts.googleapis.com/css2?family=Martel&family=Piazzolla:opsz,wght@8..30,300;8..30,400;8..30,900&family=Poppins:wght@500&family=Roboto&family=Tiro+Devanagari+Sanskrit&display=swap");
+  </style>
+
+  <title>Achievements</title>
+</head>
+
+<body>
+  <header class="header">
+    <a href="/index.html"><img src="/src/assets/images/expisro.png" alt="Logo" class="logo" /></a>
+    <div class="header-heading-container">
+      <h1 style="font-family: 'Tiro Devanagari Sanskrit', serif" class="header-heading">
+        एक्सप्लोर इसरो
+      </h1>
+      <h1 style="font-family: 'Poppins', sans-serif" ; class="header-heading">
+        ExploreISRO
+      </h1>
+    </div>
+    <nav class="navbar">
+      <ul class="navbar-list">
+        <li><a class="navbar-link" href="/index.html">Home</a></li>
+        <li>
+          <a class="navbar-link" href="/src/pages/missions/index.html">Missions</a>
+        </li>
+        <li>
+          <a class="navbar-link active" href="/src/pages/achievements/index.html">Achievements</a>
+        </li>
+        <li>
+          <a class="navbar-link" href="/src/pages/launchers/index.html">Launchers</a>
+        </li>
+        <li>
+          <a class="navbar-link" href="/src/pages/satellites/index.html">Satellites</a>
+        </li>
+        <li>
+          <a class="navbar-link" href="/src/pages/gallery/index.html">Gallery</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Achievements</h2>
+    <section class="timeline">
+      <div class="horizontal-line">
+        <div class="circle">
+          <div class="circle-heading">Aryabhata</div>
+          <div class="card" onclick="openPage('/src/pages/achievements/aryabhatt.html')">
+            <h3>Aryabhata</h3>
+            <img src="/src/assets/images/satellites/Aryabhatta.jpeg" alt="Aryabhata">
+            <p> India's first satellite, Aryabhata, launched by ISRO in 1975, marked a significant milestone in the
+              nation's space exploration journey.</p>
+          </div>
+        </div>
+        <div class="circle">
+          <div class="circle-heading">NavIC</div>
+          <div class="card" onclick="openPage('/src/pages/achievements/navic.html')">
+            <h3>NavIC</h3>
+            <img src="/src/assets/images/satellites/navic.webp" alt="NavIC">
+            <p> NavIC, India's regional satellite navigation system by ISRO, provides precise positioning, enhancing
+              navigation for diverse applications.</p>
+          </div>
+        </div>
+        <div class="circle">
+          <div class="circle-heading">Mars Orbiter Mission</div>
+          <div class="card" onclick="openPage('/src/pages/achievements/mangalyaan.html')">
+            <h3 style="font-size: x-large;">Mars Orbiter Mission</h3>
+            <img src="/src/assets/images/satellites/mangalyaan.jpg" alt="Mangalyaan">
+            <p> Mangalyaan, India's Mars Orbiter Mission, launched by ISRO in 2013, marked India's first interplanetary
+              mission.</p>
+          </div>
+        </div>
+        <div class="circle" onclick="openPage('/src/pages/achievements/pslv_c37.html')">
+          <div class="circle-heading">PSLV-C37</div>
+          <div class="card">
+            <h3>PSLV-C37</h3>
+            <img src="/src/assets/images/satellites/PSLV-C37.jpg" alt="PSLV-C37">
+            <p> Historic ISRO mission: Launched 104 satellites, showcasing India's prowess in commercial space
+              exploration</p>
+          </div>
+        </div>
+        <div class="circle" onclick="openPage('/src/pages/achievements/chandrayaan3.html')">
+          <div class="circle-heading">Chandrayaan-3</div>
+          <div class="card">
+            <h3>Chandrayaan-3 </h3>
+            <img src="/src/assets/images/satellites/ch3lander.jpg" alt="Chandrayaan-3">
+            <p>Chandrayaan-3, India's lunar exploration mission, launched by ISRO, aims to further explore the moon's
+              surface and conduct scientific research.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Javascript for Onclick page open  -->
+  <script src="/src/assets/js/pageroute.js"></script>
+  <footer class="footer">
+    <pre>&copy; Copyright<b> 2023 ExploreISRO</b>. All Rights Reserved <br> Crafted by Ayush Chauhan</pre>
+  </footer>
+</body>
+
+</html>

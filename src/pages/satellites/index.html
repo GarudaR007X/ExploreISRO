@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/src/assets/images/expisro.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="/src/assets/css/style.css" />
+  <link rel="stylesheet" href="/src/assets/css/satellitestyle.css" />
+
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Martel&family=Piazzolla:opsz,wght@8..30,300;8..30,400;8..30,900&family=Roboto&family=Tiro+Devanagari+Sanskrit&display=swap");
+
+    @import url("https://fonts.googleapis.com/css2?family=Martel&family=Piazzolla:opsz,wght@8..30,300;8..30,400;8..30,900&family=Poppins:wght@500&family=Roboto&family=Tiro+Devanagari+Sanskrit&display=swap");
+  </style>
+
+  <title>Satellites</title>
+</head>
+
+<body>
+  <header class="header">
+    <a href="/index.html"><img src="/src/assets/images/expisro.png" alt="Logo" class="logo" /></a>
+    <div class="header-heading-container">
+      <h1 style="font-family: 'Tiro Devanagari Sanskrit', serif" class="header-heading">
+        एक्सप्लोर इसरो
+      </h1>
+      <h1 style="font-family: 'Poppins', sans-serif" ; class="header-heading">
+        ExploreISRO
+      </h1>
+    </div>
+    <nav class="navbar">
+      <ul class="navbar-list">
+        <li><a class="navbar-link" href="/index.html">Home</a></li>
+        <li>
+          <a class="navbar-link" href="/src/pages/missions/index.html">Missions</a>
+        </li>
+        <li>
+          <a class="navbar-link" href="/src/pages/achievements/index.html">Achievements</a>
+        </li>
+        <li>
+          <a class="navbar-link" href="/src/pages/launchers/index.html">Launchers</a>
+        </li>
+        <li>
+          <a class="navbar-link active" href="/src/pages/satellites/index.html">Satellites</a>
+        </li>
+        <li>
+          <a class="navbar-link" href="/src/pages/gallery/index.html">Gallery</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Satellites</h2>
+
+    <span class="info">In order to fulfil vision and service goals, the Department of space
+      has been developing mainly the satellites for communication, earth
+      observation, scientific, navigation and meteorological purposes.</span>
+
+    <section class="cards">
+      <div class="card" onclick="openPage('/src/pages/satellites/commsats.html')">
+        <h3>Communication Satellites</h3>
+        <img src="/src/assets/images/satellites/communication.webp" alt="Image 1" />
+        <p>
+          Supports telecommunication, television broadcasting, satellite news
+          gathering, societal applications, weather forecasting, disaster
+          warning and Search and Rescue operation services.
+        </p>
+      </div>
+
+      <div class="card" onclick="openPage('/src/pages/satellites/earthobssat.html')">
+        <h3>Earth Observation Satellites</h3>
+        <img src="/src/assets/images/satellites/earthobs.webp" alt="Image 2" />
+        <p>
+          The largest civilian remote sensing satellite constellation in the
+          world - thematic series of satellites supporting multitude of
+          applications in the areas of land and water resources; cartography;
+          and ocean & atmosphere
+        </p>
+      </div>
+
+      <div class="card" onclick="openPage('/src/pages/satellites/scietificsat.html')">
+        <h3>Scientific Spacecraft</h3>
+        <img src="/src/assets/images/satellites/scitificsat.png" alt="Image 3" />
+        <p>
+          Spacecraft for research in areas like astronomy, astrophysics,
+          planetary and earth sciences, atmospheric sciences and theoretical
+          physics.
+        </p>
+      </div>
+
+      <div class="card" onclick="openPage('/src/pages/satellites/navsat.html')">
+        <h3>Navigation Satellites</h3>
+        <img src="/src/assets/images/satellites/navsats.webp" alt="Image 4" />
+        <p>
+          Satellites for navigation services to meet the emerging demands of
+          the Civil Aviation requirements and to meet the user requirements of
+          the positioning, navigation and timing based on the independent
+          satellite navigation system.
+        </p>
+      </div>
+
+      <div class="card" onclick="openPage('/src/pages/satellites/expsats.html')">
+        <h3>Experimental Satellites</h3>
+        <img src="/src/assets/images/satellites/expsats.webp" alt="Image 5" />
+        <p>
+          A host of small satellites mainly for the experimental purposes.
+          These experiments include Remote Sensing, Atmospheric Studies,
+          Payload Development, Orbit Controls, recovery technology etc.
+        </p>
+      </div>
+
+      <div class="card" onclick="openPage('/src/pages/satellites/smallsats.html')">
+        <h3>Small Satellites</h3>
+        <img src="/src/assets/images/satellites/smallsats.webp" alt="Image 6" />
+        <p>
+          Sub 500 kg class satellites - a platform for stand-alone payloads
+          for earth imaging and science missions within a quick turn around
+          time.
+        </p>
+      </div>
+
+      <div class="card" onclick="openPage('/src/pages/satellites/studsats.html')">
+        <h3>Student Satellites</h3>
+        <img src="/src/assets/images/satellites/stustas.webp" alt="Image 7" />
+        <p>
+          ISRO's Student Satellite programme is envisaged to encourage various
+          Universities and Institutions for the development of Nano/Pico
+          Satellites.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Javascript for Onclick page open  -->
+  <script>
+    function openPage(pageUrl) {
+      window.location.href = pageUrl;
+    }
+  </script>
+
+  <footer class="footer">
+    <pre>&copy; Copyright<b> 2023 ExploreISRO</b>. All Rights Reserved <br> Crafted by Ayush Chauhan</pre>
+  </footer>
+</body>
+
+</html>

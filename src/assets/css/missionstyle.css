@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Martel&family=Piazzolla:opsz,wght@8..30,300;8..30,400;8..30,900&family=Poppins:wght@500&family=Roboto&family=Tiro+Devanagari+Sanskrit&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  /* 1 rem = 10px, setting a base font size of 10px */
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  color: #003366;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  border-bottom: 0.2rem solid #003366;
+  /* Add an underline effect */
+  padding-bottom: 0.5rem;
+  line-height: 1.2;
+  box-shadow: 0 8px 12px -6px rgba(0, 0, 0, 0.2);
+}
+
+.horizontal-line {
+  position: relative;
+  height: 1rem;
+  background-color: #a3a2a2;
+  box-shadow: 0 26px 58px 0 rgba(0, 0, 0, 0.22),
+    0 5px 14px 0 rgba(0, 0, 0, 0.18);
+  margin-top: 20rem;
+  margin-bottom: 9rem;
+  border-radius: 2px;
+}
+
+.circle {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background-color: #3498db;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.1),
+    0px 50px 100px -20px rgba(50, 50, 93, 0.25),
+    0px 30px 60px -30px rgba(0, 0, 0, 0.3);
+}
+
+.circle:nth-child(1) {
+  left: 10%;
+}
+
+.circle:nth-child(2) {
+  left: 30%;
+}
+
+.circle:nth-child(3) {
+  left: 50%;
+}
+
+.circle:nth-child(4) {
+  left: 70%;
+}
+
+.circle:nth-child(5) {
+  left: 90%;
+}
+
+.timeline {
+  border: 2px solid black;
+  box-shadow: 1px 1px 39px 0px rgba(0, 0, 0, 0.6) inset;
+  margin-top: 4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 5rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  padding-bottom: 10rem;
+  border-radius: 2rem;
+  background-color: #f2f2f2;
+}
+
+.circle-heading {
+  position: absolute;
+  top: -5rem;
+  text-align: center;
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.timeline-events img {
+  width: 100%;
+  border-radius: 2rem;
+  height: 26rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.timeline-events {
+  display: flex;
+  overflow-x: scroll;
+  background-image: url("/src/assets/images/galaxy.webp");
+  border-radius: 5rem;
+}
+
+.timeline-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 0.8rem;
+  margin: 1rem;
+  overflow: hidden;
+}
+
+.timeline-container {
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.card {
+  color: black;
+  background-color: #fff;
+  border: 0.2rem solid #ccc;
+  border-radius: 2rem;
+  margin-top: 5rem;
+  padding: 2rem;
+  text-align: center;
+  width: 35rem;
+  height: 55rem;
+  margin-bottom: 10rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  overflow: hidden;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card h3 {
+  font-weight: 600;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+  margin-bottom: 1.5rem;
+}
+
+.card img .card-image {
+  width: 100%;
+  max-width: 7.5rem;
+  height: 8.5rem;
+  object-fit: cover;
+  border-radius: 2rem;
+  margin-top: 5rem;
+  overflow: hidden;
+  background-color: white;
+}
+
+.card p {
+  margin: 1.5rem;
+  font-weight: 300;
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.read-more-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.read-more-button:hover {
+  background-color: #2980b9;
+}
