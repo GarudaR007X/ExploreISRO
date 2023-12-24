@@ -12,7 +12,6 @@ Welcome to ExploreISRO, your ultimate resource for delving into the remarkable a
 - 📷 **Gallery:** A visual journey through ISRO's awe-inspiring imagery, showcasing launches, space probes, and breathtaking views of our universe.
 
 ## Get Involved
-- 📚 **Documentation:** Detailed guides and documentation to help users navigate and contribute to the repository.
 - 🤝 **Contribution Guidelines:** Contribute your knowledge, insights, or code to enhance the repository. We welcome your collaboration!
 
 ## Why ExploreISRO?
