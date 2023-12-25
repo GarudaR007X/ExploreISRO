@@ -1,89 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="../../src/assets/images/expisro.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../../src/assets/css/style.css" />
+    <link rel="stylesheet" href="../../src/assets/css/missionstyle.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" href="../src/assets/images/expisro.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="../src/assets/css/style.css" />
-  <link rel="stylesheet" href="../src/assets/css/missionstyle.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Martel&family=Piazzolla:opsz,wght@8..30,300;8..30,400;8..30,900&family=Roboto&family=Tiro+Devanagari+Sanskrit&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Martel&family=Piazzolla:opsz,wght@8..30,300;8..30,400;8..30,900&family=Poppins:wght@500&family=Roboto&family=Tiro+Devanagari+Sanskrit&display=swap");
+    </style>
 
-  <style>
-    @import url("https://fonts.googleapis.com/css2?family=Martel&family=Piazzolla:opsz,wght@8..30,300;8..30,400;8..30,900&family=Roboto&family=Tiro+Devanagari+Sanskrit&display=swap");
-    @import url("https://fonts.googleapis.com/css2?family=Martel&family=Piazzolla:opsz,wght@8..30,300;8..30,400;8..30,900&family=Poppins:wght@500&family=Roboto&family=Tiro+Devanagari+Sanskrit&display=swap");
-  </style>
+    <title>Missions</title>
+  </head>
 
-  <title>Missions</title>
-</head>
-
-<body>
-  <header class="header">
-    <a href="/index.html">
-      <img src="../src/assets/images/expisro.png" alt="Logo" class="logo" />
-    </a>
-    <div class="header-heading-container">
-      <h1 style="font-family: 'Tiro Devanagari Sanskrit', serif" class="header-heading">
-        एक्सप्लोर इसरो
-      </h1>
-      <h1 style="font-family: 'Poppins', sans-serif" ; class="header-heading">
-        ExploreISRO
-      </h1>
-    </div>
-    <nav class="navbar">
-      <ul class="navbar-list">
-        <li><a class="navbar-link" href="/index.html">Home</a></li>
-        <li>
-          <a class="navbar-link active" href="https://ayush765.github.io/ExploreISRO/src/pages/missions/index.html">Missions</a>
-        </li>
-        <li>
-          <a class="navbar-link" href="/src/pages/achievements/index.html">Achievements</a>
-        </li>
-        <li>
-          <a class="navbar-link" href="/src/pages/launchers/index.html">Launchers</a>
-        </li>
-        <li>
-          <a class="navbar-link" href="/src/pages/satellites/index.html">Satellites</a>
-        </li>
-        <li>
-          <a class="navbar-link" href="/src/pages/gallery/index.html">Gallery</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <h2>Missions</h2>
-    <section class="timeline">
-      <div class="horizontal-line">
-        <div class="circle" onclick="showYearContent(2023)">
-          <div class="circle-heading">2023</div>
-        </div>
-        <div class="circle" onclick="showYearContent(2022)">
-          <div class="circle-heading">2022</div>
-        </div>
-        <div class="circle" onclick="showYearContent(2021)">
-          <div class="circle-heading">2021</div>
-        </div>
-        <div class="circle" onclick="showYearContent(2020)">
-          <div class="circle-heading">2020</div>
-        </div>
-        <div class="circle" onclick="showYearContent(2019)">
-          <div class="circle-heading">2019</div>
-        </div>
+  <body>
+    <header class="header">
+      <a href="/index.html">
+        <img src="../src/assets/images/expisro.png" alt="Logo" class="logo" />
+      </a>
+      <div class="header-heading-container">
+        <h1
+          style="font-family: 'Tiro Devanagari Sanskrit', serif"
+          class="header-heading"
+        >
+          एक्सप्लोर इसरो
+        </h1>
+        <h1 style="font-family: 'Poppins', sans-serif" ; class="header-heading">
+          ExploreISRO
+        </h1>
       </div>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li><a class="navbar-link" href="/index.html">Home</a></li>
+          <li>
+            <a
+              class="navbar-link active"
+              href="https://ayush765.github.io/ExploreISRO/src/pages/missions/index.html"
+              >Missions</a
+            >
+          </li>
+          <li>
+            <a class="navbar-link" href="/src/pages/achievements/index.html"
+              >Achievements</a
+            >
+          </li>
+          <li>
+            <a class="navbar-link" href="/src/pages/launchers/index.html"
+              >Launchers</a
+            >
+          </li>
+          <li>
+            <a class="navbar-link" href="/src/pages/satellites/index.html"
+              >Satellites</a
+            >
+          </li>
+          <li>
+            <a class="navbar-link" href="/src/pages/gallery/index.html"
+              >Gallery</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-      <div class="timeline-events" id="timelineEventsContainer">
-        <!-- Images and cards will be dynamically added here -->
-      </div>
+    <main>
+      <h2>Missions</h2>
+      <section class="timeline">
+        <div class="horizontal-line">
+          <div class="circle" onclick="showYearContent(2023)">
+            <div class="circle-heading">2023</div>
+          </div>
+          <div class="circle" onclick="showYearContent(2022)">
+            <div class="circle-heading">2022</div>
+          </div>
+          <div class="circle" onclick="showYearContent(2021)">
+            <div class="circle-heading">2021</div>
+          </div>
+          <div class="circle" onclick="showYearContent(2020)">
+            <div class="circle-heading">2020</div>
+          </div>
+          <div class="circle" onclick="showYearContent(2019)">
+            <div class="circle-heading">2019</div>
+          </div>
+        </div>
 
-    </section>
-  </main>
+        <div class="timeline-events" id="timelineEventsContainer">
+          <!-- Images and cards will be dynamically added here -->
+        </div>
+      </section>
+    </main>
 
-  <footer class="footer">
-    <pre>&copy; Copyright<b> 2023 ExploreISRO</b>. All Rights Reserved <br> Crafted by Ayush Chauhan</pre>
-  </footer>
+    <footer class="footer">
+      <pre>&copy; Copyright<b> 2023 ExploreISRO</b>. All Rights Reserved <br> Crafted by Ayush Chauhan</pre>
+    </footer>
 
-  <script src="../src/assets/js/mission.js"></script>
-</body>
-
+    <script src="../src/assets/js/mission.js"></script>
+  </body>
 </html>
