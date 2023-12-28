@@ -21,9 +21,6 @@ ISRO's commitment to space exploration has redefined our understanding of the co
 This project is a work in progress, and we invite the community to contribute to make ExploreISRO even more informative and engaging.
 
 ## Links
-- [ExploreISRO Demo](#) *(Coming Soon)*
-
-## Contact
-For questions, suggestions, or collaboration, reach out to [your email here].
+- https://exploreisro.netlify.app/
 
 **Embark on a Cosmic Journey with ExploreISRO!**
