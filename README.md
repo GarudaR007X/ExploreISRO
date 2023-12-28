@@ -17,9 +17,6 @@ Welcome to ExploreISRO, your ultimate resource for delving into the remarkable a
 ## Why ExploreISRO?
 ISRO's commitment to space exploration has redefined our understanding of the cosmos. ExploreISRO is your go-to hub for information, fostering a community of space enthusiasts, developers, and researchers.
 
-## Under Development
-This project is a work in progress, and we invite the community to contribute to make ExploreISRO even more informative and engaging.
-
 ## Links
 - https://exploreisro.netlify.app/
 
